@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.id-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+h1 {
+    margin: 15px 0 5px 0;
+}
+
+p {
+    margin: 2px 0;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    background-color: #000000;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
